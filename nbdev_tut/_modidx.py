@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'master',
                 'doc_host': 'https://michaeldini.github.io',
                 'git_url': 'https://github.com/michaeldini/nbdev_tut',
                 'lib_path': 'nbdev_tut'},
-  'syms': {'nbdev_tut.core': {'nbdev_tut.core.foo': ('core.html#foo', 'nbdev_tut/core.py')}}}
+  'syms': { 'nbdev_tut.core': {'nbdev_tut.core.foo': ('core.html#foo', 'nbdev_tut/core.py')},
+            'nbdev_tut.nbdev_tut': {'nbdev_tut.nbdev_tut.say_hello': ('nbdev_tut.html#say_hello', 'nbdev_tut/nbdev_tut.py')}}}
