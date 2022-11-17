@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev_tut",
+    "section": "",
+    "text": "pip install nbdev_tut"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev_tut",
+    "section": "How to use",
+    "text": "How to use\nWe have one func that says hello. See example:\n\nfrom nbdev_tut import nbdev_tut\n\n\nnbdev_tut.say_hello(\"Michael\")\n\n'Hello Michael!'"
+  },
+  {
+    "objectID": "nbdev_tut.html",
+    "href": "nbdev_tut.html",
+    "title": "nbdev tut",
+    "section": "",
+    "text": "source\n\nsay_hello\n\n say_hello (to)\n\nSay hello to somebody\n\nsay_hello('Michael')\n\n'Hello Michael!'\n\n\n\nsay_hello('Tony')\n\n'Hello Tony!'\n\n\n\nassert say_hello(\"Hamel\")==\"Hello Hamel!\"\n\n\nfrom fastcore.test import *\n\n\ntest_eq(say_hello(\"Hamel\"),\"Hello Hamel!\")"
+  }
+]
